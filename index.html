@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Number Table</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+<h1>Table APP</h1>
+<hr>
+<form class="tableInput" onsubmit="table(); return false;">
+  <label for="Input">Which table do you want?</label><br>
+  <input type="number" required id="Input" placeholder="Enter any number"><br>
+  <button type="submit" >Print</button>
+</form>
+
+
+<div class="heading"><span>Table of &nbsp;</span><div class="userInput"></div>&nbsp;<span>upto 10</span></div>
+<p id="result">
+
+</p>
+    <script src="./app.js">
+
+    </script>
+  </body>
+</html>
